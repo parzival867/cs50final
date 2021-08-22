@@ -52,3 +52,16 @@ I'll install some dependencies for the Flask application to work along with some
 I'll creat a .gitignore file and then initialize a git repository:  
 
     git init
+
+
+For this project, I'll be using Flask's app factory, so all the separate scripts will be contained in a folder called 'app'
+in this case. The app factory is the __init__.py file (I think). This tells Flask how to use the other scripts.
+
+
+**I next create the app directory and start work on the init file.**
+
+In the init file I imported libraries and then defined some globally accessible libraries.
+
+I've set the config to be loaded from an object so that there can be different classes of configs 
+
+Also there is place for the blueprints to be registered for the other routes.
